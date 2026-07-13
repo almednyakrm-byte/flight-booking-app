@@ -1,0 +1,41 @@
+{
+  "project_name": "تطبيق حجز طيران مع إدارة الرحلات والتسعير والسياسات",
+  "project_type": "booking_system",
+  "color_palette": "emerald-600 and teal-500",
+  "modules": [
+    "رحلات",
+    "ملاحة",
+    "ملاحة_الرحلات"
+  ],
+  "pages": [
+    "index",
+    "login",
+    "register",
+    "list_رحلات",
+    "view_رحلة",
+    "create_رحلة",
+    "edit_رحلة",
+    "delete_رحلة"
+  ],
+  "permissions": {
+    "guest": [
+      "index",
+      "login"
+    ],
+    "user": [
+      "index",
+      "login",
+      "list_رحلات",
+      "view_رحلة"
+    ],
+    "admin": [
+      "index",
+      "login",
+      "list_رحلات",
+      "view_رحلة",
+      "create_رحلة",
+      "edit_رحلة",
+      "delete_رحلة"
+    ]
+  }
+}
